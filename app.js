@@ -50,5 +50,5 @@ app.use('/api', productRoutes);
 const port = process.env.PORT || 8000;
 
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+    console.log(`CORS-enabled. Server is running on port ${port}`);
 });
